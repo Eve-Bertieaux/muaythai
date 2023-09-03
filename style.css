@@ -40,6 +40,12 @@ body{
       background-size: contain;
       
     }
+li{
+  color: #001D6E;
+}
+    li:hover{
+      color: #bb0b0b;
+    }
 
    
   h1
