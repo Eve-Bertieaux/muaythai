@@ -1,0 +1,173 @@
+div {
+ 
+  display: flex;
+justify-content: center;
+  align-items: center;
+  
+}
+
+.logo {
+
+  width : 25%;
+  
+
+  
+  }
+
+body{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+     header ul li{
+      display: inline-block;
+      margin-right: 10px;
+      
+  }
+
+     ul{
+      list-style-type: none;
+      display: inline-block;
+      margin: 0 auto 20px auto;
+      padding: 10px;
+      }
+    
+      li::before{
+      display: inline;
+      position: relative;
+      width: 1em;
+      height: 1em;
+      top: 0.2rem;
+      margin-right: 0.4rem;
+      background-size: contain;
+      
+    }
+
+   
+  h1
+   {
+    color: #bb0b0b;
+    text-align: center;
+   }
+   
+  h2
+   {
+    color: #bb0b0b;
+    text-align: center;
+   }
+
+  table
+  {
+    border-collapse: collapse;
+  }
+  
+  th, td
+  {
+    color: #001D6E;
+    border: 1px solid ;
+    padding: 10px;
+  }
+  
+  #texte 
+  {
+    color: #001D6E;
+  }
+
+  h2 
+  {
+    color: #bb0b0b;
+    margin-bottom: 10px;
+  }
+#salle 
+{
+  width: 400px;
+  height: 400px;
+  display: inline;
+  margin:20px;
+  text-align: center;
+}
+
+#wrapper
+{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photoentr1 img
+{
+   width: 50%;
+   justify-content: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 75px;
+}
+
+.photoentr2 img
+{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+  }
+
+.p1
+{
+  background: #ffffff96;
+  width: 470px;
+  height: 100px;
+  box-shadow: 0 5px 10px hsla(0, 0%, 0%, .1);
+  border-radius: 5px;
+  display: flex;
+  padding: 30px;
+  margin: -25px;
+  transform: translate(-50%, 185%);
+}
+
+.p2
+{
+  background: #ffffff96;
+  width: 470px;
+  height: 100px;
+  box-shadow: 0 5px 10px hsla(0, 0%, 0%, .1);
+  border-radius: 5px;
+  display: flex;
+  padding: 30px;
+  margin: -25px;
+  transform: translate(-50%, 185%);
+}
+
+
+
+
+
+p
+{
+  color: #001D6E ;
+ padding-left: 25px;
+ text-align: center;
+}
+
+p a
+{
+  margin-left: 10px;
+}
+
+a
+{
+  text-decoration: none;
+  color: #001D6E;
+  display: inline-block;
+  margin-top:  20px;
+}
+
+a:hover{
+  color: #bb0b0b;
+}
+
+footer img
+{
+  margin-top: 150px;
+  width: 15%;
+}
