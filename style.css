@@ -103,9 +103,33 @@ section {
 }
 
 
-    
+
+	
+	
+
+
+ /*un peu d'histoire*/
+ 
+ #histoire
+{
+  width: 50%;
+}
+
+
+  #container 
+{
+  line-height: 1.5;
+}
+
+.content 
+{
+  padding: 25px;
+  text-align: center;
+  
+}
    
 
+  
 
 
 
