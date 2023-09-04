@@ -112,7 +112,13 @@ section {
  
  #histoire
 {
-  width: 50%;
+  width: 100%;
+}
+
+#membre
+{
+  width: 100%;
+  text-align: left;
 }
 
 
@@ -225,6 +231,19 @@ a
 a:hover{
   color: #bb0b0b;
 }
+
+/*membres*/
+
+.membre {
+   width: 100%;
+   justify-content: center;
+   display: block;
+   
+   align-items: center;
+   
+}
+
+
 
 
 
