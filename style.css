@@ -1,36 +1,38 @@
-div {
- 
-  display: flex;
-justify-content: center;
-  align-items: center;
-  
+/* toutes les pages*/
+
+div 
+{
+      display: flex;
+      justify-content: center;
+      align-items: center;
 }
 
-.logo {
+.logo 
+{
+      width : 25%;
+}
 
-  width : 25%;
-  
-
-  
-  }
-
-body{
+body
+{
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     }
-     header ul li{
+}
+     
+header ul li
+{
       display: inline-block;
       margin-right: 10px;
-      
-  }
+}
 
-     ul{
+ul
+{
       list-style-type: none;
       display: inline-block;
       margin: 0 auto 20px auto;
       padding: 10px;
-      }
+}
     
-      li::before{
+li::before
+{
       display: inline;
       position: relative;
       width: 1em;
@@ -38,50 +40,58 @@ body{
       top: 0.2rem;
       margin-right: 0.4rem;
       background-size: contain;
-      
-    }
-li{
-  color: #001D6E;
 }
-    li:hover{
-      color: #bb0b0b;
-    }
 
-   
-  h1
-   {
+li
+{
+     color: #001D6E;
+}
+    
+li:hover
+{
+    color: #bb0b0b;
+}
+
+h1
+{
     color: #bb0b0b;
     text-align: center;
-   }
+}
    
-  h2
-   {
+h2
+{
     color: #bb0b0b;
     text-align: center;
-   }
+}
 
-  table
-  {
+table
+{
     border-collapse: collapse;
-  }
+}
   
-  th, td
-  {
+th, td
+{
     color: #001D6E;
     border: 1px solid ;
     padding: 10px;
-  }
+}
   
-  #texte 
-  {
+#texte 
+{
     color: #001D6E;
-  }
+}
 
-  h2 
-  {
+h2 
+{
     color: #bb0b0b;
     margin-bottom: 10px;
-  }
+}
+
+
+
+
+/* salle de sport*/
+
 #salle 
 {
   width: 400px;
@@ -97,6 +107,8 @@ li{
   display: flex;
   justify-content: space-between;
 }
+
+/* les entraineurs*/
 
 .photoentr1 img
 {
@@ -116,7 +128,7 @@ li{
     justify-content: center;
     align-items: center;
     padding: 75px;
-  }
+}
 
 .p1
 {
@@ -144,15 +156,11 @@ li{
   transform: translate(-50%, 185%);
 }
 
-
-
-
-
 p
 {
   color: #001D6E ;
- padding-left: 25px;
- text-align: center;
+  padding-left: 25px;
+  text-align: center;
 }
 
 p a
@@ -171,6 +179,15 @@ a
 a:hover{
   color: #bb0b0b;
 }
+
+/*membres*/
+
+#membres {
+  text-align: left;
+}
+
+
+/*footer*/
 
 footer img
 {
