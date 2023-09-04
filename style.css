@@ -81,6 +81,11 @@ th, td
     color: #001D6E;
 }
 
+#textgauche 
+{
+  text-align: left;
+}
+      
 h2 
 {
     color: #bb0b0b;
@@ -178,13 +183,6 @@ a
 
 a:hover{
   color: #bb0b0b;
-}
-
-/*membres*/
-
-#textgauche 
-{
-  text-align: left;
 }
 
 
