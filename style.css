@@ -116,11 +116,10 @@ section {
   margin-left: 20px;
 }
 
-#membre
+#membre 
 {
   width: 25%;
   margin-left: 20px;
-
 }
 
 
@@ -237,14 +236,19 @@ a:hover{
 
 /*membres*/
 
-.membre {
-   width: 100%;
-   justify-content: center;
-   display: block;
-   
-   align-items: center;
+.membre img
+{
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+  
    
 }
+
+
 
 
 
