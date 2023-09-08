@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="style.css">
     <title>A propos de moi</title>
 </head>
@@ -43,11 +44,43 @@
                 </ul>
             </div>
         </section>
+
+       
+
+    <h2>Contactez-nous</h2>
+    <div class="container">
+        
+        <form action="votre_script_de_traitement.php" method="POST">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+    <div id="confirmation"> 
+        Formulaire soumis avec succès ! Merci.</div>
+    
+    <div id="map">Où nous trouver ?</div>
+    
+
+    
+    
+    
+
+
     
         <footer>
             <img src="images/logo1.jpg" alt="logo du club" width="300px">
         </footer>
         
         <script src="main.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=VOTRE_CLE_API&callback=initMap" async defer></script>
+        
     </body>
     </html>
