@@ -260,7 +260,7 @@ body {
   padding: 0;
 }
 
-.container {
+.container1 {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
@@ -302,6 +302,19 @@ input[type="submit"]:hover
   background-color: #001D6E;
 }
 
+
+
+#confirmation
+{
+  padding-top: 20px;
+  display: none; 
+  text-align: center; 
+  color: #bb0b0b;
+  font-size: 20px;
+}
+
+/*map*/
+
 #map 
 {
   
@@ -310,15 +323,9 @@ input[type="submit"]:hover
   width: 100%;
   color: #001D6E;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-#confirmation
-{
-  padding-top: 20px;
-  display: none; 
-  text-align: center; 
-  color: #bb0b0b
+  font-size: 20px;
+  text-align: center;
+  color: #bb0b0b;
 }
 
 
