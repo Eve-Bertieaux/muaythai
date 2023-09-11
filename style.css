@@ -16,11 +16,16 @@ body
 {
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-     
-header ul li
+
+header ul li 
 {
       display: inline-block;
       margin-right: 10px;
+}
+header ul li a
+{
+      display: inline-block;
+      margin-right: 20px;
 }
 
 ul
@@ -313,6 +318,33 @@ input[type="submit"]:hover
   font-size: 20px;
 }
 
+/*formulaire tel adress*/
+
+.contact-card {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-size: 18px;
+}
+
+/* Style pour les icônes */
+.contact-icon {
+  margin-right: 10px;
+  color: #001D6E
+}
+
 /*map*/
 
 #map 
@@ -325,7 +357,7 @@ input[type="submit"]:hover
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   text-align: center;
-  color: #bb0b0b;
+  
 }
 
 
